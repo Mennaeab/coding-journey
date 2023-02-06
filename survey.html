@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey</title>
+    <link rel="stylesheet" href="css/surveystyle.css">
+  </head>
+  <body>
+    <h1>Tell us about yourself!</h1>
+
+    <form id="form">
+    <div class="form-control">
+      <label for="name" id="label-name"> <strong>Name</strong></label> 
+    </div>
+      <input type="text" id="name" placeholder="Enter your name"/>
+    <div class="form-control">
+      <label for="age" id="label-age"><strong>Age</strong></label>
+  </div>
+    <input type="age" id="age" placeholder="Enter your age" />
+    <div class="form-control">
+      <label for="Email" id="label-email"><strong>Email</strong></label>
+    </div>
+    <input type="email" name="email" placeholder="Enter your email"/>
+  <div class="form-control" >
+        <label for="role" id="label-role">
+        Which option best describes your profession?
+        </label>
+  </div>
+<select name="role" id="role">
+    <option value="select">select</option>
+    <option value="student">student</option>
+    <option value="part-time">part-time</option>
+    <option value="full-time">full-time</option>
+    <option value="retired">retired</option>
+    <option value="other">other</option>
+</select>
+ <div class="form-control">
+    <label>Languages spoken
+        <small>(Check all that apply)</small>
+    </label>
+    <label for="inp-1">
+        <input type="checkbox" 
+               name="inp">English</label>
+    <label for="inp-2">
+        <input type="checkbox" 
+               name="inp">French</label>
+    <label for="inp-3">
+        <input type="checkbox"
+               name="inp">Spanish</label>
+    <label for="inp-4">
+        <input type="checkbox"
+        name="inp">Other</input></label>
+</div>  
+<div class="form-control">
+    <label for="aboutus" id="label-aboutus">
+        How did you hear about us?
+    </label>
+    <select name="about us" id="about us">
+        <option value="select">select</option>
+        <option value="Indeed">indeed</option>
+        <option value="SocialMedia">social media</option>
+        <option value="Friends">friends</option>
+        <option value="Other">other</option>
+    </select>
+    </div>
+<div class="form-control">
+    <label>
+        Would you recommend our services to a friend?
+    </label>
+    <label for="recommend-1">
+        <input type="radio"
+        id="recommend-1"
+        name="recommend">Yes</input>
+    </label>
+    <label for="recommend-2">
+        <input type="radio"
+        id="recommend-2"
+        name="recommend">No</input>
+    </label>
+    <label for="recommend-3">
+        <input type="radio"
+        id="recommend-3"
+        name="recommend">Maybe</input>
+    </label>
+</div>
+    <div class="form-control">
+<label for="feedback">
+Please take a moment to leave your feedback :)
+</label>
+<textarea name="feedback" id="feedback"
+placeholder="Enter your feedback">
+</textarea>
+    </div>
+
+<button type="submit" value="submit">
+    Submit
+</button>
+</form>
+<img src="imgs/bluesurvey.png" alt="blue" class="center">
+</body>
+</html>

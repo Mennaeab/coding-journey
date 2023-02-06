@@ -1,0 +1,24 @@
+html {
+    background-color: #ddebee;
+}
+h1,form {
+    font-style: oblique;
+    margin: 50px;
+    text-align: center;
+    word-spacing: 5px;
+}
+img.center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+div,input, option{  
+        border: 2px solid skyblue;   
+        border-radius: 8px;  
+        font-size: 15px;  
+        font-weight: initial;  
+        margin: 30px;  
+        padding: 30px;  
+        outline-offset: 0.5em;  
+      }    
